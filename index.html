@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pizzaria Urawa</title>
+
+<body>
+    <header>
+        <h1>Pizzaria Urawa</h1>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <div class="carousel-item" id="about">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo à Pizzaria Urawa! Oferecemos as melhores pizzas da cidade, feitas com ingredientes frescos e de alta qualidade.</p>
+                <img src="pizzaria.png" alt="image" height="700" width="700">
+            </div>
+            <div class="carousel-item" id="menu">
+                <h2>Nosso Menu</h2>
+                <meta name="description" content="A Pizzaria Delícia oferece pizzas saborosas, feitas com ingredientes frescos. Confira nosso menu e promoções!">
+                <ul>
+                    <li>Margherita</li>
+                    <li>Calabresa</li>
+                    <li>Frango com Catupiry</li>
+                    <li>Vegetariana</li>
+                    <li>Quatro Queijos</li>
+                </ul>
+                <h3>Ofertas Especiais</h3>
+                <div class="offer">
+                    <h4>Pizza Margherita</h4>
+                    <img src="pizza-marg.jpg" alt="pizza marg" height="250" width="400">
+                    <p>R$ 76,90 - Molho de tomate, muçarela e manjericão fresco.</p>
+                    <button class="add-to-cart" onclick="addToCart('Pizza Margherita', 76.90)">Adicionar ao Carrinho</button>
+                    
+                </div>
+                <div class="offer">
+                    <h4>Pizza Calabresa</h4>
+                    <img src="Pizza-calabresa.jpeg" alt="Pizza calabresa" height="250" width="400">
+                    <p>R$ 69,90 - Calabresa, cebola e azeitonas.</p>
+                    <button class="add-to-cart" onclick="addToCart('Pizza Calabresa', 69.90)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="offer">
+                    <h4>Pizza Quatro Queijos</h4>
+                     <img src="pizza-4queijos.jpeg" alt="pizza 4queijos" height="250" width="400">
+                    <p>R$ 79,90 - Muçarela, gorgonzola, parmesão e provolone.</p>
+                    <button class="add-to-cart" onclick="addToCart('Pizza Quatro Queijos', 79.90)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="offer">
+                    <h4>Pizza Frango com Catupiry</h4>
+                    <img src="pizza-frangoctpry.jpeg" alt="pizza frangoctpry" height="250" width="400">
+                    <p>R$ 79,90 - Muçarela, Frango e Catupiry.</p>
+                    <button class="add-to-cart" onclick="addToCart('Pizza Frango com Catupiry', 79.90)">Adicionar ao Carrinho</button>
+                </div>
+                <div class="offer">
+                    <h4>Pizza Vegetariana</h4>
+                    <img src="pizza-veg.jpeg" alt="pizza veg" height="250" width="400">
+                    <p>R$ 89,90 - Tomate, Cebola, Palmito, Champignon e Alho poro.</p>
+                    <button class="add-to-cart" onclick="addToCart('Pizza Vegetariana', 89.90)">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+            <div class="carousel-item" id="contact">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco:</p>
+                <p>Email: contato@pizzariauruwa.com</p>
+                <p>Telefone: (21) 98650-5264</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="carousel-buttons">
+        <button class="carousel-button" id="prevBtn">&#10094; Anterior</button>
+        <button class="carousel-button" id="nextBtn">Próximo &#10095;</button>
+    </div>
+
+    <script src="scrypt.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #ff4800; /* Tomato color */
+            color: white;
+            padding: 1rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .carousel-container {
+         overflow: hidden;
+         width: 100%;
+         max-width: 800px;
+         margin: auto;
+        }
+
+        .carousel-track {
+          display: flex;
+         transition: transform 0.3s ease-in-out;
+        }
+
+        .carousel-item {
+         min-width: 100%;
+          box-sizing: border-box;
+         padding: 20px;
+        }
+        .carousel-buttons {
+            margin: 1rem 0;
+        }
+
+        .carousel-button {
+            background: #ff6347; /* Tomato color */
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .carousel-button:hover {
+            background: #e5533d; /* Darker tomato color */
+        }
+
+        .offer {
+            margin-top: 1rem;
+            padding: 1rem;
+            border: 1px solid #ff0000;
+            border-radius: 5px;
+            background: #fff3e6; /* Light background for offers */
+        }
+
+        .add-to-cart {
+            background: #4CAF50; /* Green color */
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 0.5rem;
+        }
+
+        .add-to-cart:hover {
+            background: #45a049; /* Darker green */
+        }
